@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="stride" extends="master_class" extends-java="master_class" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.awt.Button" enable="true"/>
+        <import target="java.util.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class stride</javadoc>
+            <params/>
+            <throws/>
+            <body/>
+        </constructor>
+    </constructors>
+    <methods>
+        <method access="public" static="true" type="void" type-java="void" name="main" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="Scanner" type-java="Scanner" name="sc" value="new Scanner(System.in)" value-java=" new Scanner(System.in)" enable="true"/>
+                <call expression="nline(&quot;Enter sin,cos or tan:&quot;)" expression-java="nline(&quot;Enter sin,cos or tan:&quot;)" enable="true"/>
+                <variable type="String" type-java="String" name="c" value="sc.nextLine()" value-java="sc.nextLine()" enable="true"/>
+                <call expression="nline(&quot;Enter a number:&quot;)" expression-java="nline(&quot;Enter a number:&quot;)" enable="true"/>
+                <variable type="int" type-java="int" name="a" value="sc.nextInt()" value-java="sc.nextInt()" enable="true"/>
+                <variable type="double" type-java="double" name="k" value="0.0" value-java="0.0" enable="true"/>
+                <if condition="c.equals(&quot;sin&quot;)" condition-java="c.equals(&quot;sin&quot;)" enable="true">
+                    <ifStatements>
+                        <assign dest="k" dest-java="k" src="sin(a)" src-java="sin(a)" enable="true"/>
+                        <call expression="System.out.println(k)" expression-java="System.out.println(k)" enable="true"/>
+                    </ifStatements>
+                    <elseIf condition="c.equals(&quot;cos&quot;)" condition-java="c.equals(&quot;cos&quot;)">
+                        <assign dest="k" dest-java="k" src="cos(a)" src-java="cos(a)" enable="true"/>
+                        <call expression="System.out.println(k)" expression-java="System.out.println(k)" enable="true"/>
+                    </elseIf>
+                    <elseIf condition="c.equals(&quot;tan&quot;)" condition-java="c.equals(&quot;tan&quot;)">
+                        <assign dest="k" dest-java="k" src="tan(a)" src-java="tan(a)" enable="true"/>
+                        <call expression="System.out.println(k)" expression-java="System.out.println(k)" enable="true"/>
+                    </elseIf>
+                    <else>
+                        <call expression="nline(&quot;WRONG CHOICE&quot;)" expression-java="nline(&quot;WRONG CHOICE&quot;)" enable="true"/>
+                    </else>
+                </if>
+            </body>
+        </method>
+    </methods>
+</class>

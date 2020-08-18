@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="arrange" extends="master_class" extends-java="master_class" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors>
+        <constructor access="public" enable="true">
+            <javadoc xml:space="preserve">Constructor for objects of class arrange</javadoc>
+            <params/>
+            <throws/>
+            <body/>
+        </constructor>
+    </constructors>
+    <methods>
+        <comment xml:space="preserve">second program based on stride</comment>
+        <method access="public" static="true" type="void" type-java="void" name="main" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="Scanner" type-java="Scanner" name="sc" value="new Scanner(System.in)" value-java=" new Scanner(System.in)" enable="true"/>
+                <call expression="System.out.println(&quot;Enter a String&quot;)" expression-java="System.out.println(&quot;Enter a String&quot;)" enable="true"/>
+                <variable type="String" type-java="String" name="a" value="sc.nextLine()" value-java="sc.nextLine()" enable="true"/>
+                <variable type="String" type-java="String" name="b" value="a.toUpperCase()" value-java="a.toUpperCase()" enable="true"/>
+                <variable type="String" type-java="String" name="c" value="arrange_caps(b)" value-java="arrange_caps(b)" enable="true"/>
+                <call expression="nline(c)" expression-java="nline(c)" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>

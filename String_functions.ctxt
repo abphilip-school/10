@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=String_functions
+comment1.params=
+comment1.target=java.lang.String\ input()
+comment2.params=a
+comment2.target=int\ l(java.lang.String)
+comment3.params=a\ b
+comment3.target=char\ ca(java.lang.String,\ int)
+comment4.params=a\ c\ start
+comment4.target=int\ indexOf(java.lang.String,\ char,\ int)
+comment5.params=a\ o\ n
+comment5.target=java.lang.String\ rep(java.lang.String,\ char,\ char)
+comment6.params=a\ s\ l
+comment6.target=java.lang.String\ sub_string(java.lang.String,\ int,\ int)
+numComments=7

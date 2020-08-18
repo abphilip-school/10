@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=normal_function
+comment1.params=a\ b
+comment1.target=void\ addition(int,\ int)
+comment2.params=a\ b
+comment2.target=void\ subtraction(int,\ int)
+comment3.params=a\ b
+comment3.target=void\ multiplication(int,\ int)
+comment4.params=a\ b
+comment4.target=void\ division(int,\ int)
+comment5.params=a\ b
+comment5.target=void\ power(int,\ int)
+comment6.params=a\ b
+comment6.target=int\ r_table(int,\ int)
+comment7.params=a\ b
+comment7.target=void\ table(int,\ int)
+comment8.params=
+comment8.target=void\ main()
+numComments=9
